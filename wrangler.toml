@@ -5,13 +5,13 @@ compatibility_flags = ["nodejs_compat"]
 # Frontend only for now
 pages_build_output_dir = "dist"
 
-# D1 Database
+# D1 Database - Use the new ID from this screenshot
 [[d1_databases]]
 binding = "DB"
-database_name = "rental-chat-db"
-database_id = "92fd2b52-f54d-42a7-95a4-6f24ee79e521"   # ← Keep your exact UUID
+database_name = "rental-chat-va"
+database_id = "476a3951-52b1-4a64-b64e-55297d87cd59"
 
-# R2 for photos (optional for now)
+# R2 (optional for now)
 [[r2_buckets]]
 binding = "CHAT_IMAGES"
 bucket_name = "rental-chat-images"
