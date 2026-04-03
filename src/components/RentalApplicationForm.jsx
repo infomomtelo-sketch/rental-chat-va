@@ -29,7 +29,7 @@ export default function RentalApplicationForm({ property, onClose }) {
             className="w-full bg-gray-800 rounded-lg px-4 py-3" 
             required
             value={form.name} 
-            onChange={e => setForm({...form, name: e.target.value)} 
+            onChange={(e) => setForm({...form, name: e.target.value)} 
           />
           
           <input 
@@ -38,7 +38,7 @@ export default function RentalApplicationForm({ property, onClose }) {
             className="w-full bg-gray-800 rounded-lg px-4 py-3" 
             required
             value={form.email} 
-            onChange={e => setForm({...form, email: e.target.value)} 
+            onChange={(e) => setForm({...form, email: e.target.value)} 
           />
 
           <input 
@@ -47,7 +47,7 @@ export default function RentalApplicationForm({ property, onClose }) {
             className="w-full bg-gray-800 rounded-lg px-4 py-3" 
             required
             value={form.phone} 
-            onChange={e => setForm({...form, phone: e.target.value)} 
+            onChange={(e) => setForm({...form, phone: e.target.value)} 
           />
 
           <input 
@@ -56,7 +56,7 @@ export default function RentalApplicationForm({ property, onClose }) {
             className="w-full bg-gray-800 rounded-lg px-4 py-3" 
             required
             value={form.income} 
-            onChange={e => setForm({...form, income: e.target.value)} 
+            onChange={(e) => setForm({...form, income: e.target.value)} 
           />
 
           <textarea 
@@ -64,7 +64,7 @@ export default function RentalApplicationForm({ property, onClose }) {
             rows="3" 
             className="w-full bg-gray-800 rounded-lg px-4 py-3"
             value={form.reason} 
-            onChange={e => setForm({...form, reason: e.target.value)} 
+            onChange={(e) => setForm({...form, reason: e.target.value)} 
           />
 
           <div className="flex gap-3 pt-6">
